@@ -3,7 +3,7 @@ pipeline {
     environment {
         CI = 'true'
     }
-  tools {nodejs "nodejs"}
+  tools {nodejs "node"}
   stages {     
     stage('Build') {
       steps {
