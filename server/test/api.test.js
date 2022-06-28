@@ -14,7 +14,7 @@ test("index route works", done => {
     .expect(200, done);
 });
 
-test('should first', () => { console.log('test')})
+// test('should first', () => { console.log('test')})
 
 // const request = require("supertest");
 // const app = require("../routes/api");
