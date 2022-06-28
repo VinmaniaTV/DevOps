@@ -6,7 +6,7 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use("/", index);
 
-test("index route works", done => {
+it("index route works", done => {
   request(app)
     .get("/test")
     .expect("Content-Type", /json/)
