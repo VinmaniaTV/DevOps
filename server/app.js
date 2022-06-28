@@ -14,6 +14,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser())
 app.use(session({ secret: 'grehjznejzkhgjrez', saveUninitialized: false, resave: false }))
 app.use(express.static(path.join(__dirname, '../client')))
+app.get('/test', (req, res) => res.json({message:"The api is working !"}));
 
 app.use('/api/', apiRouter)
 
