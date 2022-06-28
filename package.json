@@ -7,7 +7,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "jest": "^28.1.1",
     "bcrypt": "^5.0.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -16,5 +15,8 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
   }
 }
